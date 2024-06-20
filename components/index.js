@@ -1,2 +1,2 @@
 // component/index.js
-export { WebCallComponent as WebsocketComponent } from './WebsocketComponent';
+export { App as WebsocketComponent } from './WebsocketComponent';
