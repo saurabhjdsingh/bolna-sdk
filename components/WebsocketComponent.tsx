@@ -144,7 +144,7 @@ const DailyAudioCall = ({ websocketUrl, agent_id }) => {
 };
 
 const App = ({ agentId, accessToken }) => {
-    const websocketUrl = `${process.env.REACT_APP_WEBSOCKET_ENDPOINT}/${agentId}?auth_token=${accessToken}&user_agent=dashboard&enforce_streaming=true`;
+    const websocketUrl = `${import.meta.env.VITE_REACT_APP_WEBSOCKET_ENDPOINT}/${agentId}?auth_token=${accessToken}&user_agent=dashboard&enforce_streaming=true`;
 
     return (
         <DailyProvider>
