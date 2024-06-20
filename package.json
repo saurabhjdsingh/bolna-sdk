@@ -1,0 +1,22 @@
+{
+  "name": "bolna-sdk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "components",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhjdsingh/bolna-sdk.git"
+  },
+  "author": "bolna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhjdsingh/bolna-sdk/issues"
+  },
+  "homepage": "https://github.com/saurabhjdsingh/bolna-sdk#readme",
+  "dependencies": {
+    "@daily-co/daily-react": "^0.19.0"
+  }
+}
