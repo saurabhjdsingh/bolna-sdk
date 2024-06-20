@@ -1,5 +1,5 @@
 import {DailyProvider, useDaily} from '@daily-co/daily-react';
-import React, {useEffect, useRef, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 
 const DailyAudioCall = ({ websocketUrl, agent_id }) => {
     const callObject = useDaily();
